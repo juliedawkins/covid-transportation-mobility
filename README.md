@@ -44,9 +44,9 @@ conda env update --name existing_env --file environment.yml --prune
    ```bash
    cd your-repo-name
    ```
-3. Install dependencies:
+3. Activate kernel:
    ```bash
-   pip install -r requirements.txt
+   conda activate your-env-name
    ```
 4. Run Jupyter Notebook:
    ```bash
