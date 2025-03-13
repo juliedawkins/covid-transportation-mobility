@@ -21,15 +21,18 @@ This project analyzes the impact of COVID-19 on transportation and mobility in t
 ## Getting Started
 ### Setting Up the Environment
 To install all dependencies, download the environment.yml file from the repository and run:
-```conda env create -f environment.yml
+```bash
+conda env create -f environment.yml
 ```
 This will create a new Conda environment with the necessary dependencies.
 To activate the environment, run:
-```conda activate your-env-name
+```bash
+conda activate your-env-name
 ```
 (Replace your-env-name with the actual environment name from environment.yml or specify your own name using --name my_new_env.)
 If you already have an environment and want to update it:
-```conda env update --name existing_env --file environment.yml --prune
+```bash
+conda env update --name existing_env --file environment.yml --prune
 ```
 
 ### Running the Analysis
