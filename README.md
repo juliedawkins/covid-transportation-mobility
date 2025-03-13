@@ -62,5 +62,5 @@ conda env update --name existing_env --file environment.yml --prune
 
 
 ## Contact
-For questions or contributions, reach out via GitHub Issues or email [julie.l.dawkins@gmail.com].
+For questions or contributions, reach out via GitHub Issues or email julie.l.dawkins@gmail.com.
 
